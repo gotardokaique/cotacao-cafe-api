@@ -1,0 +1,18 @@
+spring.application.name=cotacao-cafe
+
+#Aplicacao
+app.developer=true
+
+#Conexao
+spring.datasource.url=url seu banco
+spring.datasource.username=usuario
+spring.datasource.password=senha
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.hibernate.ddl-auto=update
+
+#URL
+server.port=8080
+
+#DEV
+spring.devtools.restart.enabled=${app.developer}
+

@@ -1,0 +1,13 @@
+/target/
+/src/main/resources/application.properties
+
+/bin/
+/out/
+/build/
+/.settings/
+/.project
+.classpath
+*.log
+*.iml
+*.idea/
+*.DS_Store
